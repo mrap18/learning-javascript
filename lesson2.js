@@ -1,20 +1,19 @@
-// console.log("Anurag");
-// console.log("Second commit");
-const accountId =  13579;
-let accountAddress = "Butwal";
-var accountNumber = "22331456";
-accountEmail = "xyz@gmail.com";
-let accountState;
+"use srict"; // treat all JS code to newer version
 
-// accountId = 2468;
-accountAddress = "kathmandu";
-accountNumber = "66557162";
-accountEmail = "abc@gmail.com";
+// alert( 5 * 5 ) // we are using nodejs , not browser
 
-/*
-Prefer not to use var in javaScript 
-because of issue in block scope and functional scope
-*/
+console.log("hello world")// code readability should be high 
 
-console.log(accountId);
-console.table([accountAddress,accountNumber,accountEmail,accountState]);
+// data types
+// number => 2, 3, age...
+// string => "abc"
+// bigint => for long string
+// boolean => true/false
+// null => standalone value
+// undefined => not defined
+// symbol => unique
+// object
+
+console.log(typeof "hello");
+console.log(typeof null);
+
