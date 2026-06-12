@@ -2,7 +2,10 @@
 
 // alert( 5 * 5 ) // we are using nodejs , not browser
 
-console.log("hello world")// code readability should be high 
+console.log("hello world"); console.log("its a coder here") // ❌  
+console.log("hello world")
+console.log("its a coder here") // ✅ code readability should be high
+
 
 // data types
 // number => 2, 3, age...
